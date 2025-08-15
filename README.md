@@ -1,3 +1,5 @@
+![Gem Image](assets/gem.png)
+
 # Terraform AWS EC2 with Tailscale
 
 This project utilizes Terraform to provision an AWS EC2 instance. The EC2 instance is configured with Tailscale via a user data script, allowing it to function as a node within your Tailscale network. The setup supports deployment to specific AWS regions, namely `ap-south-2` (Mumbai) and `me-central-1` (UAE), with pre-configured key pairs and security groups.
